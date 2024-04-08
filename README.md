@@ -18,7 +18,7 @@ The application is deployed and accessible at [https://weatherforecastapi-produc
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/weather-forecast.git
+   git clone https://github.com/Lakhan1122/weather-forecast.git
    ```
 2. Navigate to the project directory:
    ```
