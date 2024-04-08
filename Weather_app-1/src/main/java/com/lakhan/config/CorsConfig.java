@@ -10,7 +10,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-                .allowedOrigins("https://6613b7fd914aad7c9689c71c--spontaneous-salamander-0ee224.netlify.app/") // Replace this with your frontend URL
+                .allowedOrigins("http://127.0.0.1:5500/") // Replace this with your frontend URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*");
     }
