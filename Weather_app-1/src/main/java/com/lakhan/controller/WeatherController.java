@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.lakhan.service.WeatherService;
 
 @RestController
-@CrossOrigin(origins = "https://6613b2b346501d787139b75c--prismatic-kelpie-d2806b.netlify.app/")
+@CrossOrigin(origins = "https://6613b7fd914aad7c9689c71c--spontaneous-salamander-0ee224.netlify.app/")
 public class WeatherController {
 	
 	    @Autowired
