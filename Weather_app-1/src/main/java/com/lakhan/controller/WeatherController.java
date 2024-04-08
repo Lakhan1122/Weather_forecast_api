@@ -9,10 +9,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+// import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.lakhan.service.WeatherService;
 
 @RestController
+// @CrossOrigin(origins = "https://6613b7fd914aad7c9689c71c--spontaneous-salamander-0ee224.netlify.app/")
 public class WeatherController {
 	
 	    @Autowired
