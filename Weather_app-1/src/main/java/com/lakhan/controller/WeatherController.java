@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.lakhan.service.WeatherService;
 
 @RestController
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 public class WeatherController {
 	
 	    @Autowired
