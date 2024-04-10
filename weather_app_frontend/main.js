@@ -1,6 +1,6 @@
 function getForecastSummary() {
     var cityName = document.getElementById('cityName').value;
-    fetch('http://localhost:8080/api/weather/forecast-summary?cityName=' + cityName, {
+    fetch('https://weatherforecastapi-production.up.railway.app/api/weather/forecast-summary?cityName=' + cityName, {
         headers: {
             'Authorization': 'Basic ' + btoa('user:user@1008'),
             'clientId': '13', // Your client ID
