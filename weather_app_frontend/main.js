@@ -1,7 +1,8 @@
 function getForecastSummary() {
     var cityName = document.getElementById('cityName').value;
-    fetch('https://weatherforecastapi-production.up.railway.app/api/weather/forecast-summary?cityName=' + cityName, {
+    fetch('http://localhost:8080/api/weather/forecast-summary?cityName=' + cityName, {
         headers: {
+            'Authorization': 'Basic ' + btoa('user:user@1008'),
             'clientId': '13', // Your client ID
             'clientSecret': 'lakhan' // Your client secret
         }
@@ -22,8 +23,11 @@ function getForecastSummary() {
 
 function getHourlyForecast() {
     var cityName = document.getElementById('cityName').value;
+    
+
     fetch('https://weatherforecastapi-production.up.railway.app/api/weather/hourly-forecast?cityName=' + cityName, {
         headers: {
+            'Authorization': 'Basic ' + btoa('user:user@1008'),
             'clientId': '13', // Your client ID
             'clientSecret': 'lakhan' // Your client secret
         }
